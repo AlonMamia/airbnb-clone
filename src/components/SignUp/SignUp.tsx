@@ -1,9 +1,12 @@
-// import { useState } from "react";
+import { Modal } from "@mui/material";
+import { useState } from "react";
 
-// const SignUp: React.FC = () => {
-//     const [username, setUserName] = useState('')
+const SignUp: React.FC = () => {
+    const [username, setUserName] = useState('')
+    return(<div>
+        <Modal open={true} onClose={}></Modal>
+    </div>)
 
+};
 
-// };
-
-// export default SignUp;
+export default SignUp;

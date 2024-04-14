@@ -1,7 +1,26 @@
+.nav {
+  @apply flex flex-row justify-between items-center m-auto;
+  width: 90%;
+}
+
 .search-box {
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
 }
 
 .updated-border-radius {
   border-radius: 2rem;
+}
+
+.toggle-user-menu {
+  @apply flex flex-row gap-3 rounded-2xl p-2 cursor-pointer;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.toggle-user-menu:hover {
+  @apply shadow-lg;
+}
+
+.sign-buttons {
+  @apply hover:bg-gray-300;
+  padding: 1rem;
 }
