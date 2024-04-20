@@ -24,3 +24,7 @@
   @apply hover:bg-gray-300;
   padding: 1rem;
 }
+
+.continue-to-sign-in-button{
+  background-color: rgb(221,16,99);
+}
